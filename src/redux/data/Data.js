@@ -7,12 +7,7 @@ const UserData = {
   phone: "",
   logo: "",
   
-  // Customer: {
-  //   email: "",
-  //   password: "",
-  //   location: "",
-  //   phone: "",
-  // },
+
 };
 
 export default UserData;

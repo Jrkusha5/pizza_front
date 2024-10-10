@@ -1,7 +1,7 @@
 import { Box, Typography, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import React from "react";
-import pizzaImage from "../assets/images/image.png";
+import pizzaImage from "../assets/images/Image.png";
 
 const Hero = () => {
   return (
