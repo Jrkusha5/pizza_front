@@ -25,7 +25,7 @@ function* registerUser(action) {
   try {
     const response = yield call(
       axios.post,
-      "http://localhost:2000/user/register",
+      "https://pizza-back-ay58.onrender.com/user/register",
       action.payload
     );
     console.log("response:",response.data)
@@ -41,7 +41,7 @@ function* loginUser(action) {
   try {
     const response = yield call(
       axios.post,
-      "http://localhost:2000/user/login",
+      "https://pizza-back-ay58.onrender.com/user/login",
       action.payload
     );
     // console.log("response:",response.data)
@@ -57,7 +57,7 @@ function* createCustomer(action) {
   try {
     const response = yield call(
       axios.post,
-      "http://localhost:2000/user/create-customer",
+      "https://pizza-back-ay58.onrender.com/user/create-customer",
       action.payload
     );
     // console.log("response:",response.data)
@@ -73,7 +73,7 @@ function* loginCustomer(action) {
   try {
     const response = yield call(
       axios.post,
-      "http://localhost:2000/user/login-user",
+      "https://pizza-back-ay58.onrender.com/user/login-user",
       action.payload
     );
     yield put(CUSTOMER_LOGIN_SUCCESS(response.data));
@@ -87,7 +87,7 @@ function* loginCustomer(action) {
 // get restaurants
 function* fetchRestaurantSaga() {
   try {
-     const response = yield call(axios.get, "http://localhost:2000/user/admin");
+     const response = yield call(axios.get, "https://pizza-back-ay58.onrender.com/user/admin");
     const data = response.data; 
     yield put(FetchRestaurantSuccess(data));
     //  console.log("results:", result.payload);
