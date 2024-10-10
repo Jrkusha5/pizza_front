@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Box, Container, Typography } from "@mui/material";
 import Button from "./Button";
-import pizzaImage from "../assets/images/pizza-featured.png";
+import pizzaImage from "../assets/images/vippng 1.png";
 
 const FeaturedPizza = ({background}) => {
   const pizzaRef = useRef(null);
