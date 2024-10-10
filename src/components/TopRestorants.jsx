@@ -1,11 +1,12 @@
 import React from "react";
 import CardComponent from "./CardComponent";
 import { Box, Typography } from "@mui/material";
+import restorantImage from "../assets/images/Ellipse 8.png";
 
 const cardData = [
   {
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-TAAnJv1_IwjZT0s9comdMsmNqiR8Xps4g&s",
+    {restorantImage},
     name: "John Doe",
     orders: "2K",
     description:
@@ -13,15 +14,15 @@ const cardData = [
   },
   {
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-TAAnJv1_IwjZT0s9comdMsmNqiR8Xps4g&s",
-    name: "Jane Smith",
+    {restorantImage},
+        name: "Jane Smith",
     orders: "1.5K",
     description:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-TAAnJv1_IwjZT0s9comdMsmNqiR8Xps4g&s",
+    {restorantImage},    
     name: "Alice Johnson",
     orders: "3K",
     description:
@@ -29,24 +30,24 @@ const cardData = [
   },
   {
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-TAAnJv1_IwjZT0s9comdMsmNqiR8Xps4g&s",
-    name: "Bob Brown",
+    {restorantImage},
+        name: "Bob Brown",
     orders: "1K",
     description:
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
   {
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-TAAnJv1_IwjZT0s9comdMsmNqiR8Xps4g&s",
-    name: "Charlie Green",
+    {restorantImage},
+        name: "Charlie Green",
     orders: "1.2K",
     description:
       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-TAAnJv1_IwjZT0s9comdMsmNqiR8Xps4g&s",
-    name: "Diana Prince",
+    {restorantImage},
+        name: "Diana Prince",
     orders: "900",
     description:
       "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra.",
