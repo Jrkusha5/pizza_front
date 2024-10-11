@@ -55,7 +55,7 @@ const Footer = () => {
               Order
             </NavLink>
             <NavLink
-              to="/about"
+              to="/"
               style={{
                 textDecoration: "none",
                 color: "#0a0909",
