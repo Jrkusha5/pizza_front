@@ -6,8 +6,8 @@ import { NavLink } from "react-router-dom";
 const OrderedHistoryCard = ({ pizza }) => {
 
      const imageUrl = pizza.photo
-       ? `http://localhost:4000/${pizza.photo.replace(/\\/g, "/")}`
-    : "http://localhost:4000/uploads/placeholder.png";
+       ? `https://pizza-back-ay58.onrender.com/${pizza.photo.replace(/\\/g, "/")}`
+    : "https://pizza-back-ay58.onrender.com/uploads/placeholder.png";
   
   return (
     <Box
@@ -17,7 +17,6 @@ const OrderedHistoryCard = ({ pizza }) => {
         flexDirection: "column",
         padding: 4,
         borderRadius: 3,
-        // boxShadow: 3,
         flex: "start",
       }}
     >

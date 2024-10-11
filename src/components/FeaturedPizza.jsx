@@ -25,14 +25,14 @@ const FeaturedPizza = ({background}) => {
         color: "#FFFF",
         borderRadius: "40px",
         marginTop: "10px",
-        // padding: "20px",
+        
         display: "flex",
         position: "relative",
         overflow: "hidden",
         width: "100%",
         height: "400px",
         alignItems: "center",
-        // gap: 0,
+       
         opacity: 0,
         transform: "translateX(-100%)",
         transition: "opacity 300ms ease-out, transform 300ms ease-out",
@@ -73,7 +73,6 @@ const FeaturedPizza = ({background}) => {
           src={pizzaImage}
           alt="Pizza"
           style={{
-            // maxWidth: "100%",
             height: "100vh",
             backgroundColor: "transparent",
           }}

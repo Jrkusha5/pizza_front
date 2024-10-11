@@ -9,7 +9,7 @@ const PizzaCard = ({ pizza, user }) => {
   const handleOrderClick = () => {
    localStorage.setItem("pizza-data", JSON.stringify(pizza));
     const isAuthenticated = !!localStorage.getItem("customer-login");
-    //  console.log("logedin customerrr:", isAuthenticated);
+  
 
    if (isAuthenticated) {
      navigate("/customer-order");
