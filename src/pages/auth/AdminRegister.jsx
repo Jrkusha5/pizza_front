@@ -143,7 +143,8 @@ const AdminRegister = () => {
             <Alert severity="error">{error}</Alert>
           </Stack>
         )}
-        <form onSubmit={handleSubmit} style={{ width: "100%" }}>
+        <form onSubmit={handleSubmit} style={{ width: "100%",
+              backgroundColor: "white" }}>
           <FormGroup
             sx={{
               display: "flex",

@@ -141,7 +141,7 @@ const AdminLogin = () => {
           </Stack>
         )}
 
-        <NavLink
+        {/* <NavLink
           to="/admin-register"
           variant="h6"
           sx={{
@@ -156,7 +156,7 @@ const AdminLogin = () => {
           }}
         >
           Add Admin
-        </NavLink>
+        </NavLink> */}
         <form onSubmit={handleSubmit} style={{ width: "100%" }}>
           <FormGroup
             sx={{
