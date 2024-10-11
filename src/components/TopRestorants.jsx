@@ -40,7 +40,7 @@ const cardData = [
       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-    image: restorantImage, // Fix: Use the variable directly
+    image: restorantImage, 
     name: "Diana Prince",
     orders: "900",
     description:
